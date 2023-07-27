@@ -5,7 +5,7 @@ export default function About() {
     <div>
           <div class='col-auto mx-auto justify-center lg:flex-row items-center gap-4 my-4 p-8'>
             <div class='col-span-1 justify-items-center	'>
-            <img class='w-60 scale-75 ml-16 lg:w-96 animate__animated animate__fadeIn lg:ml-96' src='https://res.cloudinary.com/ddfmg0d4v/image/upload/v1690252685/IMG_8905_square_bxlru7.jpg' />
+            <img class='w-60 scale-75 ml-8 lg:w-96 animate__animated animate__fadeIn lg:ml-96' src='https://res.cloudinary.com/ddfmg0d4v/image/upload/v1690252685/IMG_8905_square_bxlru7.jpg' />
             </div>
             <div class="w-60 mt-8 ml-8 lg:w-96 lg:ml-96 playfair-display">
             <p>
