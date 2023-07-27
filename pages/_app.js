@@ -1,6 +1,6 @@
 import '../styles/globals.css'
-import Nav from '../components/Nav/Nav'
-import Footer from '../components/Footer/Footer'
+import Nav from '../components/Nav/nav'
+import Footer from '../components/Footer/footer'
 
 export default function App({ Component, pageProps }) {
   return (
