@@ -34,13 +34,13 @@ export default function Nav() {
   <li>
     <Link
     href="/projects"
-    class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base">
+    class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base">
           projects
     </Link>
   </li>
 
   <li>
-    <a href="https://extraolivespls.substack.com/subscribe" class="block text-sm rounded-lg px-4 py-2 font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base">
+    <a href="https://extraolivespls.substack.com/subscribe" class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base">
       blog
     </a>
   </li>

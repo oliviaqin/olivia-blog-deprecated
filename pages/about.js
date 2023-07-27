@@ -3,20 +3,26 @@ import 'animate.css';
 export default function About() {
     return ( 
     <div>
-          <div class='col-auto mx-auto justify-center lg:flex-row items-center gap-4 my-4 p-8'>
+          <div class='col-auto mx-auto justify-center lg:flex-row items-center gap-4 my-4'>
             <div class='col-span-1 justify-items-center	'>
-            <img class='w-60 scale-75 ml-8 lg:w-96 animate__animated animate__fadeIn lg:ml-96' src='https://res.cloudinary.com/ddfmg0d4v/image/upload/v1690252685/IMG_8905_square_bxlru7.jpg' />
+            <video class='lg:w-2/3 lg:ml-48'
+              src='https://res.cloudinary.com/ddfmg0d4v/video/upload/v1690313747/blender_video_zknkfp.mp4' controls></video>
             </div>
-            <div class="w-60 mt-8 ml-8 lg:w-96 lg:ml-96 playfair-display">
-            <p>
-              Hi my name is olivia. I'm 23 years old and work as a swe for <strong>datadog</strong> in nyc.
-              I graduated from UC Berkeley with a double degree in computer and data science.
+            <div class="w-96 mt-8 p-4 md:w-2/3 lg:ml-48 playfair-display">
+            <h3 class='text-xl'>
+              Hi, my name is <strong> Olivia</strong>.
+            </h3>
+            <p class='mt-1 text-sm text-gray-500'>
+              [23 in nyc]
             </p>
-            <p class='mt-4'>
-              I previously interned at <span class='hover:underline hover:underline-offset-4'><strong >qualtrics</strong></span> and <strong>geopogo</strong>, an AR startup in berkeley skydeck.
+            <p class='mt-4 text-gray-700'>
+              Currently working at <strong class='transition ease-in-out hover:text-indigo-300 delay-150 duration-300'>datadog</strong> as a swe. I previously interned at <strong class='transition ease-in-out hover:text-indigo-300 delay-150 duration-300'>qualtrics</strong> and <strong class='transition ease-in-out hover:text-indigo-300 delay-150 duration-300'>geopogo</strong>, an AR startup in berkeley skydeck.
             </p>
-            <p class='mt-4'>
-               Give me a book recc :) 
+            <p class='mt-4 text-gray-700'>
+               I graduated from UC Berkeley with a dual degree in computer and data science. In college, I was a teaching assistant for Data 100 Summer '20, Fall '20, and Spring '21.
+            </p>
+            <p class='mt-4 text-gray-700'>
+                Weapon Arsenal (technically): Python, Kubernetes, Docker, AWS, Snowflake, JupyterHub, Next.js
             </p>
             </div>
 
