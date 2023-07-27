@@ -7,7 +7,7 @@ export default function Resume() {
               <h3
                 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4"
               >
-                Covista website
+                Covista
               </h3>
 
               <p class="mt-1.5 max-w-[40ch] text-xs text-gray-500">
@@ -27,7 +27,7 @@ export default function Resume() {
     <h3
       class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4"
     >
-      Datastory website
+      Datastory
     </h3>
 
     <p class="mt-1.5 max-w-[40ch] text-xs text-gray-500">
