@@ -2,7 +2,7 @@ export default function Resume() {
     return ( 
         <div class="flex-col space-y-4 lg:space-y-16 items-center mt-16 sm:mt-0 ...">
         <div class="block lg:flex-1">
-        <a href="#" class="group relative ml-16 lg:ml-96 block w-2/3 sm:w-1/2 sm:ml-48 border">
+        <a href="https://github.com/covista/safecampus" class="group relative ml-16 lg:ml-96 block w-2/3 sm:w-1/2 sm:ml-48 border">
             <div class="mt-10 mx-10">
               <h3
                 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4"
