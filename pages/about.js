@@ -14,7 +14,6 @@ export default function About() {
             </p>
             <p class='mt-4'>
               I previously interned at <span class='hover:underline hover:underline-offset-4'><strong >qualtrics</strong></span> and <strong>geopogo</strong>, an AR startup in berkeley skydeck.
-               My interests lie in data modeling, optimization, and (occasionally) coding.
             </p>
             <p class='mt-4'>
                Give me a book recc :) 
