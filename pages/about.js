@@ -7,7 +7,7 @@ export default function About() {
             <div class='col-span-1 justify-items-center	'>
             <img class='w-60 scale-75 ml-16 lg:w-96 animate__animated animate__fadeIn lg:ml-96' src='https://res.cloudinary.com/ddfmg0d4v/image/upload/v1690252685/IMG_8905_square_bxlru7.jpg' />
             </div>
-            <div class="w-60 mt-8 ml-16 lg:w-96 lg:ml-96 playfair-display">
+            <div class="w-60 mt-8 ml-8 lg:w-96 lg:ml-96 playfair-display">
             <p>
               Hi my name is olivia. I'm 23 years old and work as a swe for <strong>datadog</strong> in nyc.
               I graduated from UC Berkeley with a double degree in computer and data science.
