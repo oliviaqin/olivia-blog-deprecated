@@ -38,8 +38,9 @@ export default function About() {
           </p>
           <p class="mt-4 text-gray-700">
             Weapon Arsenal (technically): Python, Kubernetes, Docker, AWS,
-            Snowflake, JupyterHub, Next.js Data Engineering: DBT, Airbyte, ELT,
-            ETL
+            Snowflake, JupyterHub, Next.js
+            <br />
+            Data Engineering: DBT, Airbyte, E-L-T, E-T-L
           </p>
         </div>
       </div>
