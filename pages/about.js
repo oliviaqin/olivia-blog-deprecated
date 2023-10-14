@@ -9,7 +9,7 @@ export default function About() {
           <div>
             <img
               class="rounded-lg w-96"
-              src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1696016263/IMG_7569_cpcr6o.jpg"
+              src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697327404/cpm35_2023-10-14_194904.121_dqtlwg.jpg"
             />
           </div>
           <div>
