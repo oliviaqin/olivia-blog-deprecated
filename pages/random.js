@@ -110,6 +110,16 @@ export default function Random() {
           study #2
         </div>
       </div>
+      <div class="relative justify-center group">
+        <video
+          class="lg:w-2/3 lg:ml-48"
+          src="https://res.cloudinary.com/ddfmg0d4v/video/upload/v1690313747/blender_video_zknkfp.mp4"
+          controls
+        ></video>
+        <div class="absolute inset-1/3 z-10 opacity-0 group-hover:opacity-100 text-black duration-300">
+          study #2
+        </div>
+      </div>
     </div>
   );
 }
