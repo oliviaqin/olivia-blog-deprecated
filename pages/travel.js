@@ -23,8 +23,8 @@ export default function Random() {
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697328788/cpm35_2023-10-14_201223.893_df3dda.jpg"
-        title="budapest cafe"
+        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698110616/dclassic_2023-10-23_212312.954_ao9knb.jpg"
+        title="rozes"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
@@ -40,6 +40,36 @@ export default function Random() {
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697330145/cpm35_2023-10-14_122845.874_xtc0s3.jpg"
         title="rudys"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109606/instsqc_2023-10-23_210340.582_yygycj.jpg"
+        title="paris blding"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109611/cpm35_2023-10-23_210240.390_fnmkar.jpg"
+        title="italy boats"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697328788/cpm35_2023-10-14_201223.893_df3dda.jpg"
+        title="budapest cafe"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109613/cpm35_2023-10-23_210238.746_jhdf6z.jpg"
+        title="hawaii"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109604/instsqc_2023-10-23_210402.867_zh6uxv.jpg"
+        title="pisa"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698110307/cpm35_2023-10-23_211724.443_ek6hy8.jpg"
+        title="beach day"
       />
     </div>
   );
