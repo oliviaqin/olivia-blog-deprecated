@@ -63,11 +63,6 @@ export default function Random() {
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109604/instsqc_2023-10-23_210402.867_zh6uxv.jpg"
-        title="pisa"
-      />
-      <img
-        class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698110307/cpm35_2023-10-23_211724.443_ek6hy8.jpg"
         title="beach day"
       />
