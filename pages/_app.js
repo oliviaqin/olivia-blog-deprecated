@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import Nav from "../components/Nav/nav";
 import Footer from "../components/Footer/footer";
+import "../styles/sliding_card.css";
 
 export default function App({ Component, pageProps }) {
   return (

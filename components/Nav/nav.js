@@ -39,10 +39,10 @@ export default function Nav() {
 
               <li>
                 <a
-                  href="https://extraolivespls.substack.com/subscribe"
+                  href="/blog"
                   class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
                 >
-                  blog
+                  travel
                 </a>
               </li>
 
@@ -57,10 +57,10 @@ export default function Nav() {
 
               <li>
                 <a
-                  href="/travel"
+                  href="https://extraolivespls.substack.com/"
                   class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
                 >
-                  travel
+                  blog
                 </a>
               </li>
             </ul>
