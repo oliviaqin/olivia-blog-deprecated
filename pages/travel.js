@@ -4,27 +4,27 @@ export default function Random() {
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697299981/cpm35_2023-10-13_164831.996_qhwr0a.jpg"
-        title="cornell library"
+        title="cornell library!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697299980/instc_2023-10-13_205614.994_etkbzo.jpg"
-        title="ithaca cabin"
+        title="ithaca cabin!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697328159/cpm35_2023-10-14_200139.490_ng81m5.jpg"
-        title="lake tahoe"
+        title="lake tahoe!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697327405/cpm35_2023-10-14_194814.402_prkm51.jpg"
-        title="lavender fields"
+        title="lavender fields!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698110616/dclassic_2023-10-23_212312.954_ao9knb.jpg"
-        title="rozes"
+        title="rozes!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
@@ -39,27 +39,27 @@ export default function Random() {
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109606/instsqc_2023-10-23_210340.582_yygycj.jpg"
-        title="paris blding"
+        title="paris blding!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109611/cpm35_2023-10-23_210240.390_fnmkar.jpg"
-        title="italy boats"
+        title="italy boats!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697328788/cpm35_2023-10-14_201223.893_df3dda.jpg"
-        title="budapest cafe"
+        title="budapest cafe!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109613/cpm35_2023-10-23_210238.746_jhdf6z.jpg"
-        title="hawaii"
+        title="hawaii!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/slCRCEG.jpg"
-        title="banff mountains"
+        title="banff mountains!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
@@ -74,7 +74,7 @@ export default function Random() {
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/zRW3HYV.jpeg"
-        title="kingston thrift store"
+        title="kingston thrift store!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
@@ -84,12 +84,42 @@ export default function Random() {
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/KdcRqVu.jpeg"
-        title="central park"
+        title="central park!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/mpa7v6r.jpg"
-        title="new york with snow"
+        title="new york with snow!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/ECf5PWd.jpg"
+        title="maman!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/A0qF5nW.jpg"
+        title="tiff in nyc!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/tLl5FLa.jpg"
+        title="budapest!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/yo7IREE.jpg"
+        title="paris!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/cZrwSvm.jpg"
+        title="paris!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/D25JJb5.jpg"
+        title="paris!"
       />
     </div>
   );
