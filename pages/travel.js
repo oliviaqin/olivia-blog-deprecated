@@ -38,11 +38,6 @@ export default function Random() {
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697330145/cpm35_2023-10-14_122845.874_xtc0s3.jpg"
-        title="rudys"
-      />
-      <img
-        class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109606/instsqc_2023-10-23_210340.582_yygycj.jpg"
         title="paris blding"
       />
@@ -70,6 +65,31 @@ export default function Random() {
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/JHNMLnj.jpg"
         title="banff sunset car window"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/vQacPRt.jpeg"
+        title="cancun italian restaurant"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/zRW3HYV.jpeg"
+        title="kingston thrift store"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/7M8Lhjk.jpeg"
+        title="cancun beach"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/KdcRqVu.jpeg"
+        title="central park"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/mpa7v6r.jpg"
+        title="new york with snow"
       />
     </div>
   );

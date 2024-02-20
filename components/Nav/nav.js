@@ -39,21 +39,12 @@ export default function Nav() {
 
               <li>
                 <a
-                  href="/blog"
+                  href="/travel"
                   class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
                 >
                   travel
                 </a>
               </li>
-
-              {/* <li>
-                <a
-                  href="/random"
-                  class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
-                >
-                  random
-                </a>
-              </li> */}
 
               <li>
                 <a
