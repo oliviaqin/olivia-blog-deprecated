@@ -22,7 +22,7 @@ export default function Nav() {
               <li>
                 <Link
                   href="/about"
-                  class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
+                  class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-700 hover:underline lg:text-base"
                 >
                   about
                 </Link>
@@ -31,7 +31,7 @@ export default function Nav() {
               <li>
                 <Link
                   href="/projects"
-                  class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
+                  class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-700 hover:underline lg:text-base"
                 >
                   projects
                 </Link>
@@ -39,17 +39,17 @@ export default function Nav() {
 
               <li>
                 <a
-                  href="/travel"
-                  class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
+                  href="/aesthetic"
+                  class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 hover:underline lg:text-base"
                 >
-                  travel
+                  ♡
                 </a>
               </li>
 
               <li>
                 <a
                   href="https://extraolivespls.substack.com/"
-                  class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 lg:text-base"
+                  class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 hover:underline lg:text-base"
                 >
                   blog
                 </a>
