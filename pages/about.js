@@ -5,7 +5,7 @@ export default function About() {
     <div>
       <div class="col-auto mx-auto justify-center lg:flex-row items-center gap-4 my-4">
         <div class="col-span-1 justify-items-center	"></div>
-        <div class="w-96 p-4 md:w-2/3 lg:ml-48 playfair-display md:columns-2 columns-1">
+        <div class="w-96 p-4 md:w-2/3 lg:ml-48 playfair-display md:columns-2 cmd:gap-12 olumns-1">
           <div>
             <img
               class="rounded-lg w-96"
@@ -30,7 +30,11 @@ export default function About() {
               <strong class="transition ease-in-out hover:text-indigo-300 delay-150 duration-300">
                 geopogo
               </strong>
-              , an AR startup in berkeley skydeck.
+              , an AR startup in berkeley skydeck. I have a traditional
+              background in data and computer science with data engineering
+              experience in industry. Recently, I've been following about tech
+              policy and ethics. Feel free to reach out, always happy to
+              discuss!
             </p>
             <p class="mt-4 text-gray-700">
               I graduated from UC Berkeley with a dual degree in computer and
@@ -38,13 +42,14 @@ export default function About() {
               Summer '20, Fall '20, and Spring '21.
             </p>
             <p class="mt-4 text-gray-700">
-              I enjoy traveling, reading, running, and snowboarding
+              Outside of work, I enjoy traveling, reading, running,
+              snowboarding, and aesthetic things 🌱
             </p>
             <p class="mt-4 text-gray-700">
-              Weapon Arsenal (technically): Python, Kubernetes, Docker, AWS,
-              Snowflake, JupyterHub, Next.js
+              Some book reccommendations recently:
               <br />
-              Data Engineering: DBT, Airbyte, ELT, ETL
+              Homo Deus <br /> Beloved <br /> Three Body Problem <br /> Anything
+              Ted Chiang
             </p>
           </div>
         </div>
