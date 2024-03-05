@@ -28,14 +28,14 @@ export default function Nav() {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link
                   href="/projects"
                   class="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:text-gray-700 hover:underline lg:text-base"
                 >
                   projects
                 </Link>
-              </li>
+              </li> */}
 
               <li>
                 <a
@@ -58,7 +58,7 @@ export default function Nav() {
               <li>
                 <a
                   href="https://extraolivespls.substack.com/"
-                  class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 hover:underline lg:text-base"
+                  class="block text-sm rounded-lg px-4 py-2 text-gray-500 hover:text-gray-700 hover:underline lg:text-base"
                 >
                   blog
                 </a>
