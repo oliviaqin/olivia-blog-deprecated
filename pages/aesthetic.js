@@ -3,6 +3,11 @@ export default function Random() {
     <div class="columns-1 gap-5 md:columns-2 lg:columns-3 playfair-display">
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/5tOnZMC.jpg"
+        title="cherry blossoms!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697299981/cpm35_2023-10-13_164831.996_qhwr0a.jpg"
         title="cornell library!"
       />
@@ -20,6 +25,11 @@ export default function Random() {
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697327405/cpm35_2023-10-14_194814.402_prkm51.jpg"
         title="lavender fields!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/VZQCVuA.jpg"
+        title="cherry blossoms!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
@@ -120,6 +130,11 @@ export default function Random() {
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/D25JJb5.jpg"
         title="paris!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/qrm0jnk.jpg"
+        title="franklin!"
       />
     </div>
   );
