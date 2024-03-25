@@ -32,8 +32,8 @@ export default function About() {
               </strong>
               , an AR startup in berkeley skydeck. I have a traditional
               background in data and computer science with data engineering
-              experience in industry. Recently, I've been following about tech
-              policy and ethics. Feel free to reach out, always happy to
+              experience in industry. Recently, I've been following news concerning tech
+              policy and ethics. Feel free to reach out as always happy to
               discuss!
             </p>
             <p class="mt-4 text-gray-700">
