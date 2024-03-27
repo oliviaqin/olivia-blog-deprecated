@@ -18,18 +18,8 @@ export default function Random() {
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697328159/cpm35_2023-10-14_200139.490_ng81m5.jpg"
-        title="lake tahoe!"
-      />
-      <img
-        class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697327405/cpm35_2023-10-14_194814.402_prkm51.jpg"
         title="lavender fields!"
-      />
-      <img
-        class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://i.imgur.com/VZQCVuA.jpg"
-        title="cherry blossoms!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
@@ -63,11 +53,6 @@ export default function Random() {
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109613/cpm35_2023-10-23_210238.746_jhdf6z.jpg"
-        title="hawaii!"
-      />
-      <img
-        class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/slCRCEG.jpg"
         title="banff mountains!"
       />
@@ -98,13 +83,8 @@ export default function Random() {
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://i.imgur.com/mpa7v6r.jpg"
-        title="new york with snow!"
-      />
-      <img
-        class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://i.imgur.com/ECf5PWd.jpg"
-        title="maman!"
+        src="https://i.imgur.com/fnStKBl.jpg"
+        title="long island!"
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
@@ -130,11 +110,6 @@ export default function Random() {
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://i.imgur.com/D25JJb5.jpg"
         title="paris!"
-      />
-      <img
-        class="w-full p-3.5 group-hover:opacity-50 duration-300"
-        src="https://i.imgur.com/qrm0jnk.jpg"
-        title="franklin!"
       />
     </div>
   );
