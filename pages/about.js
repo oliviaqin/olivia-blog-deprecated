@@ -16,7 +16,7 @@ export default function About() {
             <h3 class="text-xl">
               Hi, my name is <strong> Olivia</strong>.
             </h3>
-            <p class="mt-1 text-sm text-gray-500">[23 in nyc]</p>
+            <p class="mt-1 text-sm text-gray-500">[24 in nyc]</p>
             <p class="mt-4 text-gray-700">
               Currently working at{" "}
               <strong class="transition ease-in-out hover:text-indigo-300 delay-150 duration-300">
@@ -32,9 +32,9 @@ export default function About() {
               </strong>
               , an AR startup in berkeley skydeck. I have a traditional
               background in data and computer science with data engineering
-              experience in industry. Recently, I've been following news concerning tech
-              policy and ethics. Feel free to reach out as always happy to
-              discuss!
+              experience in industry. Recently, I've been following news
+              concerning tech policy and ethics. Feel free to reach out as
+              always happy to discuss!
             </p>
             <p class="mt-4 text-gray-700">
               I graduated from UC Berkeley with a dual degree in computer and
@@ -46,10 +46,42 @@ export default function About() {
               snowboarding, and aesthetic things 🌱
             </p>
             <p class="mt-4 text-gray-700">
-              Some book reccommendations recently:
+              📚 Some book reccommendations recently:
               <br />
-              Homo Deus <br /> Beloved <br /> Three Body Problem <br /> Anything
-              Ted Chiang
+              <a
+                class="underline"
+                href="https://www.goodreads.com/book/show/31138556-homo-deus"
+              >
+                Homo Deus - Yuval Noah Harari
+              </a>
+              <br />{" "}
+              <a
+                class="underline"
+                href="https://www.goodreads.com/book/show/6149.Beloved?from_search=true&from_srp=true&qid=ixzRax9Vfk&rank=1"
+              >
+                Beloved - Toni Morrison
+              </a>{" "}
+              <br />{" "}
+              <a
+                class="underline"
+                href="https://www.goodreads.com/book/show/20518872-the-three-body-problem"
+              >
+                Three Body Problem - Cixin Liu
+              </a>{" "}
+              <br />
+              <a
+                class="underline"
+                href="https://www.goodreads.com/author/show/130698.Ted_Chiang"
+              >
+                Ted Chiang
+              </a>
+              <br />{" "}
+              <a
+                class="underline"
+                href="https://www.goodreads.com/book/show/60321447-chip-war"
+              >
+                The Chip War - Chris Miller
+              </a>
             </p>
           </div>
         </div>
