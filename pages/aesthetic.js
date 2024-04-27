@@ -8,6 +8,11 @@ export default function Random() {
       />
       <img
         class="w-full p-3.5 group-hover:opacity-50 duration-300"
+        src="https://i.imgur.com/BFdEtAn.jpg"
+        title="nyc spring!"
+      />
+      <img
+        class="w-full p-3.5 group-hover:opacity-50 duration-300"
         src="https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697299981/cpm35_2023-10-13_164831.996_qhwr0a.jpg"
         title="cornell library!"
       />
