@@ -40,7 +40,7 @@ export default function Nav() {
           <nav aria-label="Global" class="hidden md:block"></nav>
           <div class="flex items-center gap-4">
             <ul class="italic pt-8 space-y-1">
-              <li> <button onClick={toggleDropdown}>Library</button></li>
+              <li> <button class="italic" onClick={toggleDropdown}>Library</button></li>
               {isOpen && (
                 <div class={`${isOpen ? 'max-h-96' : 'max-h-0'}`}>
                   {menuItems.map(item => (
