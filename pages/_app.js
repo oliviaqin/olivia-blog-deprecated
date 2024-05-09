@@ -1,14 +1,15 @@
 import "../styles/globals.css";
 import Nav from "../components/Nav/nav";
 import Footer from "../components/Footer/footer";
-import "../styles/sliding_card.css";
+import "../styles/card.css";
+import "../styles/nav.css";
 
 export default function App({ Component, pageProps }) {
   return (
     <div class="container mx-auto" className="wrapper">
-      <div class="overlay">
+      <div>
         <Nav />
-        <Component {...pageProps} />
+          <Component {...pageProps} />
         <Footer />
       </div>
 

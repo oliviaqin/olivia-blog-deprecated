@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main class="container w-2/3 sm:w-1/2 mx-auto h-48 lg:h-96">
+      <main class="pt-16 container w-2/3 sm:w-1/2 mx-auto h-48 lg:h-96">
         <div class="flex-col justify-center mt-16 lg:mt-16">
           <p class="typewriter-1 text-sm lg:text-xl playfair-display">
             Welcome to my library.

@@ -1,0 +1,16 @@
+.photo-card {
+  cursor: pointer;
+  /* border: 1px solid #ddd;
+  border-radius: 4px; */
+  padding: 5px;
+  transition: transform 0.2s; /* Animation */
+}
+.photo-card:hover {
+  transform: scale(1.02); /* Zoom in effect */
+  opacity: 0.5;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+}
