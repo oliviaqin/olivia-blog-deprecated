@@ -27,7 +27,7 @@ export default function Nav() {
   };
 
   return (
-    <header class='pt-8'>
+    <header class='pt-16'>
       <div class="mx-auto flex max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8 font-serif	">
         <div class="flex items-center lg:justify-between">
           <div>
@@ -40,7 +40,7 @@ export default function Nav() {
         <div class="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Global" class="hidden md:block"></nav>
           <div class="flex items-center gap-4">
-            <ul class="italic pt-8 space-y-1">
+            <ul class="italic space-y-1">
               <li> <button class="italic" onClick={toggleDropdown}>Library</button></li>
               {isOpen && (
                 <div class={`${isOpen ? 'max-h-96' : 'max-h-0'}`}>
