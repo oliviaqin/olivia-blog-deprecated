@@ -10,7 +10,7 @@ export default function About() {
     <div>
       <div class="col-auto mx-auto justify-center lg:flex-row items-center gap-4 my-4">
         <div class="col-span-1 justify-items-center	"></div>
-        <div class="w-96 p-4 md:w-2/3 lg:ml-48 playfair-display md:columns-2 cmd:gap-12 olumns-1">
+        <div class="w-96 p-4 md:w-2/3 lg:ml-48 playfair-display md:columns-1 cmd:gap-12 lg:columns-2">
           <div class={`rounded-lg w-96 ${loaded ? 'animation-fade-in' : ''}`}>
             <Image
               width={100}
