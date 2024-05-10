@@ -1,8 +1,11 @@
+import Link from "next/link";
 
 
 export default function Shelf() {
 
-    return (<p class="ml-8 mt-4 text-gray-700">
+    return (
+    <div class="ml-8 mt-4 text-gray-700">
+        <p>
         Books: 
         <br />
             <a
@@ -39,6 +42,13 @@ export default function Shelf() {
             >
             The Chip War - Chris Miller
             </a>
-    </p> )
+        </p>
+
+        <br />{" "}
+        <br />{" "}
+        
+        <Link class="underline" href="/chef"> chef </Link>
+
+    </div> )
 
 }
