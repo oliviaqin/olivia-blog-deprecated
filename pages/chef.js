@@ -8,6 +8,7 @@ export default function Random() {
     { src: "https://i.imgur.com/dKiPPb9.jpg", title: "acai bowl!" },
     { src: "https://i.imgur.com/IV3z9PU.jpg", title: "pasta"},
     { src: "https://i.imgur.com/PQ2lVH0.jpg", title: "korean"},
+    { src: "https://i.imgur.com/FnvLjTh.jpg", title: "protein pancakes" }
   ];
 
   const [loadedStates, setLoadedStates] = useState(new Array(imageList.length).fill(false));
@@ -22,7 +23,7 @@ export default function Random() {
   return (
     <div class="columns-1 gap-5 md:columns-2 lg:columns-3 playfair-display">
       {imageList.map((image, index) => (
-        <div key={index} className={`photo-card w-full p-3.5 group-hover:opacity-50 duration-300 ${loadedStates[index] ? 'animation-fade-in' : ''}`}>
+        <div key={index} className={`photo-card w-full p-3.5 duration-300 ${loadedStates[index] ? 'animation-fade-in' : ''}`}>
           {/* Optimize and control image loading with Next.js Image component */}
           <Image
             src={image.src}

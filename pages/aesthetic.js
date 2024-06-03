@@ -28,6 +28,9 @@ export default function Random() {
     { src: "https://i.imgur.com/D25JJb5.jpg", title: "paris!" },
     { src: "https://i.imgur.com/n6CZcoA.jpg", title: "yom!" },
     { src: "https://i.imgur.com/dBOtdTB.jpg", title: "davelle!" },
+    { src: "https://i.imgur.com/R6g5AJ0.jpg", title: "don angie!" },
+    { src: "https://i.imgur.com/uIymplX.jpg", title: "la nacional!" },
+    { src: "https://i.imgur.com/Ehg73RV.jpg", title: "charcoochie!" },
   ];
 
   const [loadedStates, setLoadedStates] = useState(new Array(imageList.length).fill(false));
