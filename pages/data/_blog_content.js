@@ -1,4 +1,4 @@
-const blogContent = {
+export const blogContent = {
     '1': {
       title: 'dc cherry blossoms 🌸',
       photos: [
@@ -85,5 +85,3 @@ const blogContent = {
         ]
     }
   };
-
-export default blogContent;

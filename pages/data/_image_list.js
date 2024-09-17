@@ -1,4 +1,4 @@
-const imageList = [
+export const imageList = [
   // { id: '1', src: "https://i.imgur.com/5tOnZMC.jpg", title: "dc", blogKey: '1'},
   // { id: '2', src: "https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697299981/cpm35_2023-10-13_164831.996_qhwr0a.jpg", title: "upstate", blogKey: '2'},
   // { id: '4', src: "https://res.cloudinary.com/ddfmg0d4v/image/upload/v1697327405/cpm35_2023-10-14_194814.402_prkm51.jpg", title: "lavender fields!", blogKey:'3' },
@@ -11,5 +11,3 @@ const imageList = [
   { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
   { id: '24', src: "https://i.imgur.com/uIymplX.jpg", title: "food", blogKey: '7'}
 ];
-
-export default imageList;
