@@ -3,7 +3,6 @@
 }
 .photo-card:hover {
   transform: scale(1.02); /* Zoom in effect */
-  opacity: 0.1;
 }
 
 img {
