@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { imageList } from './posts/[id]';
+import { imageList } from './data/_const.js';
 
 export default function Aesthetic() {
   const [loadedStates, setLoadedStates] = useState(
