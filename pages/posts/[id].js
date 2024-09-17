@@ -62,7 +62,7 @@ export async function getStaticProps({ params }) {
             {src:'https://i.imgur.com/reFe6EX.jpeg', alt: 'x'},
             {src:'https://i.imgur.com/line2QG.jpeg', alt: 'x'},
             {src:'https://i.imgur.com/wtIT5aI.jpeg', alt: 'x'},
-            {src:'https://i.imgur.com/TnDBJFr.jpeg', alt: 'x'},
+            {src:'https://i.imgur.com/CLKTyok.jpeg', alt: 'x'},
             {src:'https://i.imgur.com/jOvqeMC.jpeg', alt: 'x'},
             {src:'https://i.imgur.com/RtGHdCE.jpeg', alt: 'x'},
             // {src:'https://res.cloudinary.com/ddfmg0d4v/image/upload/v1698109611/cpm35_2023-10-23_210240.390_fnmkar.jpg', alt: 'x'},
@@ -75,8 +75,15 @@ export async function getStaticProps({ params }) {
             { src: "https://i.imgur.com/sn0Wadb.jpeg", alt: "x" },
             { src: "https://i.imgur.com/cKf07vB.jpg", alt: "x" },
             { src: "https://i.imgur.com/XS2YfDE.jpg", alt: "x" },
-            { src: "https://i.imgur.com/Q4Mgw6V.jpeg", alt: "x" },
-            { src: "https://i.imgur.com/OaWqErl.jpeg", alt: "x" }
+            { src: "https://i.imgur.com/OaWqErl.jpeg", alt: "x" },
+            { src: "https://i.imgur.com/EFkJ9pb.jpeg", alt: "x" },
+            { src: "https://i.imgur.com/CO22q2Y.jpeg", alt: "x" },
+            { src: 'https://i.imgur.com/zH3VlLt.jpeg', alt: 'x'},
+            { src: 'https://i.imgur.com/4B4y8Ip.jpeg', alt: 'x'},
+            { src: 'https://i.imgur.com/JJ1HlMd.jpeg', alt: 'x'},
+            { src: 'https://i.imgur.com/tDNYgok.jpeg', alt: 'x'},
+            { src: 'https://i.imgur.com/IeIeWJl.jpeg', alt: 'x'},
+
         ]
     },
     '7': {
