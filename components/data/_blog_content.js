@@ -64,7 +64,7 @@ export const blogContent = {
             { src: "https://i.imgur.com/R6g5AJ0.jpg", alt: "x" },
             { src: "https://i.imgur.com/Ehg73RV.jpg", alt: "x" },
             { src: "https://i.imgur.com/m1zVBhq.jpeg", alt: "x" },
-            { src: "https://i.imgur.com/viGR8CQ.jpeg", alt: "x" },
+            { src: "https://i.imgur.com/uIymplX.jpg", alt: "x" },
             { src: "https://i.imgur.com/dBOtdTB.jpg", alt: 'x'},
             { src: "https://i.imgur.com/n6CZcoA.jpg", alt: 'x'}
         ]

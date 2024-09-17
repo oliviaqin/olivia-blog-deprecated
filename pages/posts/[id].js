@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
-import { imageList } from '../data/_image_list';
-import { blogContent } from '../data/_blog_content'
+import { imageList } from '../../components/data/_image_list';
+import { blogContent } from '../../components/data/_blog_content'
 import BlogTemplate from '../../components/BlogTemplate/blog_template';
 
 export default function Post ({post}) {
