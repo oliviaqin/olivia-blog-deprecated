@@ -65,8 +65,11 @@ export const blogContent = {
                 { src: "https://i.imgur.com/Ehg73RV.jpg", alt: "x" },
                 { src: "https://i.imgur.com/m1zVBhq.jpeg", alt: "x" },
                 { src: "https://i.imgur.com/uIymplX.jpg", alt: "x" },
-                { src: "https://i.imgur.com/dBOtdTB.jpg", alt: 'x'},
-                { src: "https://i.imgur.com/n6CZcoA.jpg", alt: 'x'}
+                { src: "https://i.imgur.com/dBOtdTB.jpg", alt: 'x' } ,
+                { src: "https://i.imgur.com/n6CZcoA.jpg", alt: 'x' },
+                { src: "https://i.imgur.com/l6TmX8A.jpg", alt: 'x' },
+                { src: "https://i.imgur.com/eXqDWoW.jpg", alt: 'x' },
+                { src: "https://i.imgur.com/BESJKhA.jpg", alt: 'x' }
             ]
         },
         '8': {
@@ -81,7 +84,9 @@ export const blogContent = {
             title: 'nyc', 
             photos: [
                 { src: "https://i.imgur.com/paFZD3G.jpeg", alt: "x"},
-                { src: "https://i.imgur.com/J9do5li.jpeg", alt: "x"}
+                { src: "https://i.imgur.com/J9do5li.jpeg", alt: "x"},
+                { src: "https://i.imgur.com/VXM7bKo.jpeg", alt: "x"},
+                { src: "https://i.imgur.com/G8p4MwM.jpeg", alt: "x"}
             ]
         }
     }

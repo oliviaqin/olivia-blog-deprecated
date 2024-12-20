@@ -87,14 +87,18 @@ export async function getStaticProps({ params }) {
         ]
     },
     '7': {
-        title: 'food',
+        title: 'etc.',
         photos: [
             { src: "https://i.imgur.com/R6g5AJ0.jpg", alt: "x" },
             { src: "https://i.imgur.com/Ehg73RV.jpg", alt: "x" },
             { src: "https://i.imgur.com/m1zVBhq.jpeg", alt: "x" },
             { src: "https://i.imgur.com/uIymplX.jpg", alt: "x" },
             { src: "https://i.imgur.com/dBOtdTB.jpg", alt: 'x'},
-            { src: "https://i.imgur.com/n6CZcoA.jpg", alt: 'x'}
+            { src: "https://i.imgur.com/n6CZcoA.jpg", alt: 'x'},
+            { src: "https://i.imgur.com/l6TmX8A.jpg", alt: 'x' },
+            { src: "https://i.imgur.com/eXqDWoW.jpg", alt: 'x' },
+            { src: "https://i.imgur.com/BESJKhA.jpg", alt: 'x' },
+            { src: "https://i.imgur.com/7pvjPJe.jpeg", alt: 'x'}
         ]
     },
     '8': {
@@ -109,7 +113,9 @@ export async function getStaticProps({ params }) {
         title: 'nyc', 
         photos: [
             { src: "https://i.imgur.com/paFZD3G.jpeg", alt: "x"},
-            { src: "https://i.imgur.com/J9do5li.jpeg", alt: "x"}
+            { src: "https://i.imgur.com/J9do5li.jpeg", alt: "x"},
+            { src: "https://i.imgur.com/VXM7bKo.jpeg", alt: "x"},
+            { src: "https://i.imgur.com/G8p4MwM.jpeg", alt: "x"}
         ]
     }
   }
@@ -118,7 +124,7 @@ export async function getStaticProps({ params }) {
     { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
-    { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "food", blogKey: '7'}
+    { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
   ];
   const image = imageList.find(img => img.id === params.id);
   const post = image ? blogContent[image.blogKey] : null;
@@ -136,7 +142,7 @@ export async function getStaticPaths() {
     { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
-    { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "food", blogKey: '7'}
+    { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
   ];
 
   const paths = imageList.map((image) => ({
