@@ -92,7 +92,7 @@ export const blogContent = {
     }
   
 export const imageList = [
-    { id: '7', src: "https://i.imgur.com/SegJoGq.jpeg", title: "nyc ❤️" , blogKey: '9'},
+    { id: '7', src: "https://i.imgur.com/I96jAgE.jpg", title: "nyc ❤️" , blogKey: '9'},
     { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
