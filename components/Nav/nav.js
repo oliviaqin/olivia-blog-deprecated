@@ -10,7 +10,7 @@ export default function Nav() {
     {id:2, title: '♡', url: '/aesthetic'},
     {id:3, title: 'cv', url: 'https://drive.google.com/file/d/1TsKMOBkj0pSWjrY5InJspngUAOOTg0Ww/view?usp=sharing'},
     {id:4, title: 'blog', url: 'https://extraolivespls.substack.com/'},
-    {id:5, title: 'shelf', url: '/shelf'},
+    // {id:5, title: 'shelf', url: '/shelf'},
   ]
 
   const toggleDropdown = () => {

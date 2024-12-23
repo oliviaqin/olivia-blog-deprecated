@@ -96,5 +96,6 @@ export const imageList = [
     { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
+    { id: '50', src: "https://i.imgur.com/fqfD972.jpeg", title: "diner", blogKey: '10'},
     { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "food", blogKey: '7'}
   ];

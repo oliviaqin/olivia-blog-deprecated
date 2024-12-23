@@ -117,6 +117,22 @@ export async function getStaticProps({ params }) {
             { src: "https://i.imgur.com/VXM7bKo.jpeg", alt: "x"},
             { src: "https://i.imgur.com/G8p4MwM.jpeg", alt: "x"}
         ]
+    },
+    '10': {
+      title: 'upstate',
+      photos: [
+        { src: "https://i.imgur.com/JYtIgFi.jpeg", alt: "x"},
+        { src: "https://i.imgur.com/VweZYNb.jpeg", alt: "x"},
+        { src: "https://i.imgur.com/6z6DFGj.jpeg", alt: "x"},
+        { src: "https://i.imgur.com/0plkwNk.jpeg", alt: "x"},
+        { src: "https://i.imgur.com/YynjqSF.jpeg", alt: "x"},
+        { src: "https://i.imgur.com/NedRhpD.jpeg", alt: "x"},
+        // { src: "https://i.imgur.com/DwIUZuP.jpeg", alt: "x"},
+        // { src: "https://i.imgur.com/rXHhHJ0.jpeg", alt: "x"},
+        // { src: "https://i.imgur.com/FCwklGk.jpeg", alt: "x"},
+        // { src: "https://i.imgur.com/r4R9frh.jpeg", alt: "x"}
+
+      ]
     }
   }
   const imageList = [
@@ -124,6 +140,7 @@ export async function getStaticProps({ params }) {
     { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
+    { id: '50', src: "https://i.imgur.com/TZPQp2t.jpeg", title: "diner", blogKey: '10'},
     { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
   ];
   const image = imageList.find(img => img.id === params.id);
@@ -142,6 +159,7 @@ export async function getStaticPaths() {
     { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
+    { id: '50', src: "https://i.imgur.com/fqfD972.jpeg", title: "diner", blogKey: '10'},
     { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
   ];
 
