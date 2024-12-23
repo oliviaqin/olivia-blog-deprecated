@@ -133,6 +133,14 @@ export async function getStaticProps({ params }) {
         // { src: "https://i.imgur.com/r4R9frh.jpeg", alt: "x"}
 
       ]
+    },
+    '11': {
+      title: 'antiques',
+      photos: [
+        { src: "https://i.imgur.com/R5Hz3zL.jpeg", alt: "x"},
+        { src: "https://i.imgur.com/ZJOOI0a.jpeg", alt: "x"},
+        { src: "https://i.imgur.com/TZPQp2t.jpeg", alt: "x"}
+      ]
     }
   }
   const imageList = [
@@ -141,6 +149,7 @@ export async function getStaticProps({ params }) {
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
     { id: '50', src: "https://i.imgur.com/TZPQp2t.jpeg", title: "diner", blogKey: '10'},
+    { id: '100', src: "https://i.imgur.com/b3pLSvF.jpeg", title: "pt 2. antiques", blogKey: '11'},
     { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
   ];
   const image = imageList.find(img => img.id === params.id);
@@ -160,6 +169,7 @@ export async function getStaticPaths() {
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
     { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
     { id: '50', src: "https://i.imgur.com/fqfD972.jpeg", title: "diner", blogKey: '10'},
+    { id: '100', src: "https://i.imgur.com/b3pLSvF.jpeg", title: "pt. 2 antiques", blogKey: '11'},
     { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
   ];
 
