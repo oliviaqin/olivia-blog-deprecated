@@ -26,32 +26,7 @@ export default function About() {
             </h3>
             <p class="mt-1 text-sm text-gray-500">[24 in nyc]</p>
             <p class="mt-4 text-gray-700">
-              Currently working at{" "}
-              <strong class="transition ease-in-out hover:text-indigo-300 delay-150 duration-300">
-                datadog
-              </strong>{" "}
-              as a swe. I previously interned at{" "}
-              <strong class="transition ease-in-out hover:text-indigo-300 delay-150 duration-300">
-                qualtrics
-              </strong>{" "}
-              and{" "}
-              <strong class="transition ease-in-out hover:text-indigo-300 delay-150 duration-300">
-                geopogo
-              </strong>
-              , an AR startup in berkeley skydeck. I have a traditional
-              background in data and computer science with data engineering
-              experience in industry. Recently, I've been following news
-              concerning tech policy and ethics. Feel free to reach out as
-              always happy to discuss!
-            </p>
-            <p class="mt-4 text-gray-700">
-              I graduated from UC Berkeley with a dual degree in computer and
-              data science. In college, I was a teaching assistant for Data 100
-              Summer '20, Fall '20, and Spring '21.
-            </p>
-            <p class="mt-4 text-gray-700">
-              Outside of work, I enjoy traveling, reading, running,
-              snowboarding, and aesthetic things 🌱
+              Createive portfolio website :) 
             </p>
           </div>
         </div>

@@ -8,7 +8,7 @@ export default function Nav() {
   const services = [
     {id:1, title: 'about', url: '/about'},
     {id:2, title: '♡', url: '/aesthetic'},
-    {id:3, title: 'cv', url: 'https://drive.google.com/file/d/1TsKMOBkj0pSWjrY5InJspngUAOOTg0Ww/view?usp=sharing'},
+    // {id:3, title: 'cv', url: 'https://drive.google.com/file/d/1TsKMOBkj0pSWjrY5InJspngUAOOTg0Ww/view?usp=sharing'},
     {id:4, title: 'blog', url: 'https://extraolivespls.substack.com/'},
     // {id:5, title: 'shelf', url: '/shelf'},
   ]

@@ -79,7 +79,6 @@ export async function getStaticProps({ params }) {
             { src: "https://i.imgur.com/EFkJ9pb.jpeg", alt: "x" },
             { src: "https://i.imgur.com/CO22q2Y.jpeg", alt: "x" },
             { src: 'https://i.imgur.com/zH3VlLt.jpeg', alt: 'x'},
-            { src: 'https://i.imgur.com/4B4y8Ip.jpeg', alt: 'x'},
             { src: 'https://i.imgur.com/JJ1HlMd.jpeg', alt: 'x'},
             { src: 'https://i.imgur.com/tDNYgok.jpeg', alt: 'x'},
             { src: 'https://i.imgur.com/IeIeWJl.jpeg', alt: 'x'},
@@ -89,16 +88,15 @@ export async function getStaticProps({ params }) {
     '7': {
         title: 'etc.',
         photos: [
-            { src: "https://i.imgur.com/R6g5AJ0.jpg", alt: "x" },
-            { src: "https://i.imgur.com/Ehg73RV.jpg", alt: "x" },
-            { src: "https://i.imgur.com/m1zVBhq.jpeg", alt: "x" },
-            { src: "https://i.imgur.com/uIymplX.jpg", alt: "x" },
-            { src: "https://i.imgur.com/dBOtdTB.jpg", alt: 'x'},
-            { src: "https://i.imgur.com/n6CZcoA.jpg", alt: 'x'},
-            { src: "https://i.imgur.com/l6TmX8A.jpg", alt: 'x' },
-            { src: "https://i.imgur.com/eXqDWoW.jpg", alt: 'x' },
-            { src: "https://i.imgur.com/BESJKhA.jpg", alt: 'x' },
-            { src: "https://i.imgur.com/7pvjPJe.jpeg", alt: 'x'}
+            // { src: "https://i.imgur.com/R6g5AJ0.jpg", alt: "x" },
+            { src: "https://i.imgur.com/yYy2W9n.jpeg", alt: 'x'},
+            // { src: "https://i.imgur.com/uIymplX.jpg", alt: "x" },
+            // { src: "https://i.imgur.com/dBOtdTB.jpg", alt: 'x'},
+            // { src: "https://i.imgur.com/n6CZcoA.jpg", alt: 'x'},
+            // { src: "https://i.imgur.com/l6TmX8A.jpg", alt: 'x' },
+            // { src: "https://i.imgur.com/7pvjPJe.jpeg", alt: 'x'},
+            // { src: "https://i.imgur.com/eXqDWoW.jpg", alt: 'x' },
+            // { src: "https://i.imgur.com/BESJKhA.jpg", alt: 'x' },
         ]
     },
     '8': {
@@ -112,10 +110,13 @@ export async function getStaticProps({ params }) {
     '9': {
         title: 'nyc', 
         photos: [
-            { src: "https://i.imgur.com/paFZD3G.jpeg", alt: "x"},
-            { src: "https://i.imgur.com/J9do5li.jpeg", alt: "x"},
-            { src: "https://i.imgur.com/VXM7bKo.jpeg", alt: "x"},
-            { src: "https://i.imgur.com/G8p4MwM.jpeg", alt: "x"}
+            // { src: "https://i.imgur.com/paFZD3G.jpeg", alt: "x"},
+            // { src: "https://i.imgur.com/J9do5li.jpeg", alt: "x"},
+            // { src: "https://i.imgur.com/VXM7bKo.jpeg", alt: "x"},
+            // { src: "https://i.imgur.com/G8p4MwM.jpeg", alt: "x"},
+            { src: "https://i.imgur.com/82IvyPQ.jpeg", alt: "x"},
+            { src: "https://i.imgur.com/QBBEBBn.jpeg", alt: "x"},
+            { src: "https://i.imgur.com/rOUm8Ap.jpeg", alt: "x"}
         ]
     },
     '10': {
@@ -139,15 +140,15 @@ export async function getStaticProps({ params }) {
       photos: [
         { src: "https://i.imgur.com/R5Hz3zL.jpeg", alt: "x"},
         { src: "https://i.imgur.com/ZJOOI0a.jpeg", alt: "x"},
-        { src: "https://i.imgur.com/TZPQp2t.jpeg", alt: "x"}
+        { src: "https://i.imgur.com/TZPQp2t.jpeg", alt: "x"},
       ]
     }
   }
   const imageList = [
     { id: '7', src: "https://i.imgur.com/SegJoGq.jpeg", title: "nyc ❤️" , blogKey: '9'},
-    { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
+    // { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
-    { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
+    // { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
     { id: '50', src: "https://i.imgur.com/TZPQp2t.jpeg", title: "diner", blogKey: '10'},
     { id: '100', src: "https://i.imgur.com/b3pLSvF.jpeg", title: "pt 2. antiques", blogKey: '11'},
     { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
@@ -165,9 +166,9 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const imageList = [
     { id: '7', src: "https://i.imgur.com/SegJoGq.jpeg", title: "nyc ❤️" , blogKey: '9'},
-    { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
+    // { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
     { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
-    { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
+    // { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
     { id: '50', src: "https://i.imgur.com/fqfD972.jpeg", title: "diner", blogKey: '10'},
     { id: '100', src: "https://i.imgur.com/b3pLSvF.jpeg", title: "pt. 2 antiques", blogKey: '11'},
     { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "etc.", blogKey: '7'}
