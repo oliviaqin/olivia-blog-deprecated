@@ -26,7 +26,7 @@ export default function About() {
             </h3>
             <p class="mt-1 text-sm text-gray-500">[24 in nyc]</p>
             <p class="mt-4 text-gray-700">
-              Createive portfolio website :) 
+              Creative portfolio website :) 
             </p>
           </div>
         </div>
