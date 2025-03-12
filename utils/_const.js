@@ -92,10 +92,11 @@ export const blogContent = {
   
 export const imageList = [
     { id: '7', src: "https://i.imgur.com/82IvyPQ.jpeg", title: "nyc ❤️" , blogKey: '9'},
-    // { id: '19', src: "https://i.imgur.com/cZrwSvm.jpg", title: "paris", blogKey: '3'},
-    { id: '28', src: "https://i.imgur.com/9zLrmUV.jpg", title: "switzerland", blogKey: '6'},
-    // { id: '32', src: "https://i.imgur.com/nYGA6JZ.jpeg", title: "italy", blogKey: '5'},
+    { id: '19', src: "https://i.imgur.com/zdTZwLW.jpeg", title: "paris", blogKey: '3'},
+    { id: '28', src: "https://i.imgur.com/ccGNkWY.jpeg", title: "switzerland", blogKey: '6'},
+    { id: '32', src: "https://i.imgur.com/jhTMf5e.jpeg", title: "italy", blogKey: '5'},
     { id: '50', src: "https://i.imgur.com/fqfD972.jpeg", title: "part 1: diner", blogKey: '10'},
     { id: '100', src: "https://i.imgur.com/b3pLSvF.jpeg", title: "pt. antiques", blogKey: '11'},
-    { id: '24', src: "https://i.imgur.com/viGR8CQ.jpeg", title: "food", blogKey: '7'}
+    { id: '24', src: "https://i.imgur.com/m0bGjSS.jpeg", title: "food", blogKey: '7'},
+    {id: '12', src: "https://i.imgur.com/ktYWKl3.jpeg", title: "portraits", blogKey: '12'}
   ];
