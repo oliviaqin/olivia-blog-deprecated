@@ -1,4 +1,4 @@
-import { BlogContent, ImageListItem } from '../types';
+import { BlogContent, ImageListItem, BlogArticle } from '../types';
 
 export const blogContent: BlogContent = {
   '1': {
@@ -98,7 +98,7 @@ export const blogContent: BlogContent = {
   },
   '11': {
     title: 'portraits',
-    photos: [{src: 'https://i.imgur.com/quIiIBk.jpeg', alt: 'portraits'}, { src: 'https://i.imgur.com/WY1OCsy.jpeg', alt: 'portraits'}, { src: 'https://i.imgur.com/egQproN.jpeg', alt: 'portraits' }]
+    photos: [{ src: 'https://i.imgur.com/WY1OCsy.jpeg', alt: 'portraits'}, { src: 'https://i.imgur.com/egQproN.jpeg', alt: 'portraits' }]
   },
   '12': {
     title: 'etc.',
@@ -111,9 +111,11 @@ export const imageList: ImageListItem[] = [
   { id: '7', src: 'https://i.imgur.com/QqixX9J.jpeg', title: 'nyc ❤️', blogKey: '9' },
   { id: '19', src: 'https://i.imgur.com/JYtIgFi.jpeg', title: 'winter', blogKey: '3' },
   { id: '21', src: 'https://i.imgur.com/xRVq6W4.jpeg', title: 'beach', blogKey: '4' },
-  // { id: '28', src: 'https://i.imgur.com/ccGNkWY.jpeg', title: 'switzerland', blogKey: '6' },
-  // { id: '32', src: 'https://i.imgur.com/jhTMf5e.jpeg', title: 'italy', blogKey: '5' },
-  { id: '11', src: 'https://i.imgur.com/quIiIBk.jpeg', title: 'portraits', blogKey: '11' },
   { id: '24', src: 'https://i.imgur.com/reLHetL.jpeg', title: 'etc.', blogKey: '12' },
 ];
 
+// Local blog articles (will be combined with Substack posts)
+export const blogArticles: BlogArticle[] = [
+  // Add your local blog posts here if you want any
+  // They will be combined with Substack posts
+];

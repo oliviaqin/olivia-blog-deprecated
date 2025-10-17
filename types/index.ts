@@ -37,3 +37,17 @@ export interface BlogContent {
   [key: string]: BlogPost;
 }
 
+// Blog Article Types (for text-based blog posts)
+export interface BlogArticle {
+  id: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  date: string;
+  author: string;
+  coverImage?: string;
+  tags?: string[];
+  readTime?: string;
+  externalUrl?: string; // For linking to external posts (e.g., Substack)
+}
+

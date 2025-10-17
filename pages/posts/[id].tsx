@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import BlogTemplate from '../../components/BlogTemplate/blog_template';
 import { imageList, blogContent } from '../../data/constants';
@@ -9,12 +8,6 @@ interface PostProps {
 }
 
 export default function Post({ post }: PostProps) {
-  const router = useRouter();
-
-  if (router.isFallback) {
-    return <div>Loading...</div>;
-  }
-
   if (!post) {
     return <div>No data found for this post.</div>;
   }
@@ -38,7 +31,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   return {
     paths,
-    fallback: true,
+    fallback: false, // Required for static export
   };
 };
 

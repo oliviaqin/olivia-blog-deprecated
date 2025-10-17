@@ -8,7 +8,7 @@ export default function Nav() {
 
   const services: MenuItem[] = [
     { id: 1, title: 'about', url: '/about' },
-    { id: 4, title: 'blog', url: 'https://extraolivespls.substack.com/' },
+    { id: 3, title: 'writing', url: '/writing' },
     { id: 2, title: 'mems', url: '/aesthetic' },
   ];
 
