@@ -1,15 +1,16 @@
-import "../styles/globals.css";
+import type { AppProps } from 'next/app';
 import Nav from "../components/Nav/nav";
 import Footer from "../components/Footer/footer";
+import "../styles/globals.css";
 import "../styles/card.css";
 import "../styles/nav.css";
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div class="container mx-auto" className="wrapper">
+    <div className="container mx-auto wrapper">
       <div>
         <Nav />
-          <Component {...pageProps} />
+        <Component {...pageProps} />
         <Footer />
       </div>
 
@@ -17,3 +18,4 @@ export default function App({ Component, pageProps }) {
     </div>
   );
 }
+

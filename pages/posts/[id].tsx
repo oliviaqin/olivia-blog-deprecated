@@ -1,8 +1,14 @@
 import { useRouter } from 'next/router';
+import { GetStaticProps, GetStaticPaths } from 'next';
 import BlogTemplate from '../../components/BlogTemplate/blog_template';
-import { imageList, blogContent } from '../../utils/constants'; // Import from utility file
+import { imageList, blogContent } from '../../data/constants';
+import { BlogPost } from '../../types';
 
-export default function Post({ post }) {
+interface PostProps {
+  post: BlogPost | null;
+}
+
+export default function Post({ post }: PostProps) {
   const router = useRouter();
 
   if (router.isFallback) {
@@ -16,16 +22,16 @@ export default function Post({ post }) {
   return <BlogTemplate title={post.title} photos={post.photos} />;
 }
 
-export async function getStaticProps({ params }) {
-  const image = imageList.find(img => img.id === params.id);
+export const getStaticProps: GetStaticProps<PostProps> = async ({ params }) => {
+  const image = imageList.find(img => img.id === params?.id);
   const post = image ? blogContent[image.blogKey] : null;
 
   return {
     props: { post },
   };
-}
+};
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
   const paths = imageList.map(image => ({
     params: { id: image.id },
   }));
@@ -34,4 +40,5 @@ export async function getStaticPaths() {
     paths,
     fallback: true,
   };
-}
+};
+
