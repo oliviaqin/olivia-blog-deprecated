@@ -104,7 +104,6 @@ export const imageList: ImageListItem[] = [
   { id: '7', src: 'https://i.imgur.com/QqixX9J.jpeg', title: 'nyc ❤️', blogKey: '9' },
   { id: '19', src: 'https://i.imgur.com/JYtIgFi.jpeg', title: 'winter', blogKey: '3' },
   { id: '21', src: 'https://i.imgur.com/xRVq6W4.jpeg', title: 'beach', blogKey: '4' },
-  { id: '24', src: 'https://i.imgur.com/reLHetL.jpeg', title: 'etc.', blogKey: '12' },
 ];
 
 // Local blog articles (will be combined with Substack posts)
