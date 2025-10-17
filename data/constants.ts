@@ -36,8 +36,6 @@ export const blogContent: BlogContent = {
       { src: 'https://i.imgur.com/xRVq6W4.jpeg', alt: 'cancun' },
       { src: 'https://i.imgur.com/G2ZeUKV.jpeg', alt: 'cancun' },
       { src: 'https://i.imgur.com/lBIsJIm.jpeg', alt: 'cancun' },
-      { src: 'https://i.imgur.com/Y5tKBEl.jpeg', alt: 'cancun' },
-      { src: 'https://i.imgur.com/b3y3S3O.jpeg', alt: 'cancun' },
     ]
   },
   '5': {
@@ -99,11 +97,6 @@ export const blogContent: BlogContent = {
   '11': {
     title: 'portraits',
     photos: [{ src: 'https://i.imgur.com/WY1OCsy.jpeg', alt: 'portraits'}, { src: 'https://i.imgur.com/egQproN.jpeg', alt: 'portraits' }]
-  },
-  '12': {
-    title: 'etc.',
-    photos: [{ src: 'https://i.imgur.com/reLHetL.jpeg', alt: 'etc.' }, 
-      {src:'https://i.imgur.com/KBhCB9S.jpeg', alt: 'etc.'},]
   }
 };
 
