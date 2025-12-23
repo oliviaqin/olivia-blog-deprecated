@@ -51,3 +51,18 @@ export interface BlogArticle {
   externalUrl?: string; // For linking to external posts (e.g., Substack)
 }
 
+// Knitting Project Types
+export interface KnittingProject {
+  id: string;
+  title: string;
+  pattern: string;
+  yarn: string;
+  status: 'in progress' | 'completed' | 'planned';
+  startDate?: string;
+  completedDate?: string;
+  notes?: string;
+  image?: string;
+  patternUrl?: string;
+  yarnUrl?: string;
+}
+

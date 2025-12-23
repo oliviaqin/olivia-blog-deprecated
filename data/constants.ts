@@ -1,4 +1,4 @@
-import { BlogContent, ImageListItem, BlogArticle } from '../types';
+import { BlogContent, ImageListItem, BlogArticle, KnittingProject } from '../types';
 
 export const blogContent: BlogContent = {
   '1': {
@@ -23,9 +23,6 @@ export const blogContent: BlogContent = {
       { src: 'https://i.imgur.com/FCwklGk.jpeg', alt: 'susie' },
       { src: 'https://i.imgur.com/I96jAgE.jpeg', alt: 'winter' },
       { src: 'https://i.imgur.com/rXHhHJ0.jpeg', alt: 'winter' },
-      { src: 'https://i.imgur.com/JHNMLnj.jpeg', alt: 'winter' },
-      { src: 'https://i.imgur.com/DOon82r.jpeg', alt: 'winter' },
-      { src: 'https://i.imgur.com/UC9kYJm.jpeg', alt: 'snowboarding' },
 
 
     ]
@@ -100,14 +97,54 @@ export const blogContent: BlogContent = {
   }
 };
 
-export const imageList: ImageListItem[] = [
-  { id: '7', src: 'https://i.imgur.com/QqixX9J.jpeg', title: 'nyc ❤️', blogKey: '9' },
-  { id: '19', src: 'https://i.imgur.com/JYtIgFi.jpeg', title: 'winter', blogKey: '3' },
-  { id: '21', src: 'https://i.imgur.com/xRVq6W4.jpeg', title: 'beach', blogKey: '4' },
-];
+// Flatten photos from specific categories: nyc (9), winter (3), and cancun (4)
+const selectedBlogKeys = ['9', '3', '4'];
+export const imageList: ImageListItem[] = Object.entries(blogContent)
+  .filter(([blogKey]) => selectedBlogKeys.includes(blogKey))
+  .flatMap(([blogKey, blogPost]) => 
+    blogPost.photos
+      .filter((photo): photo is { src: string; alt: string } => 
+        'src' in photo && 'alt' in photo
+      )
+      .map((photo, index) => ({
+        id: `${blogKey}-${index}`,
+        src: photo.src,
+        title: blogPost.title,
+        blogKey: blogKey
+      }))
+  );
 
 // Local blog articles (will be combined with Substack posts)
 export const blogArticles: BlogArticle[] = [
   // Add your local blog posts here if you want any
   // They will be combined with Substack posts
+];
+
+// Knitting Projects
+export const knittingProjects: KnittingProject[] = [
+  // Add your knitting projects here
+  // Example:
+  // {
+  //   id: '1',
+  //   title: 'Cozy Cardigan',
+  //   pattern: 'Classic Cardigan Pattern',
+  //   yarn: 'Wool-Ease Thick & Quick',
+  //   status: 'in progress',
+  //   startDate: '2024-01-15',
+  //   notes: 'Working on the sleeves',
+  //   image: 'https://example.com/image.jpg',
+  //   patternUrl: 'https://example.com/pattern'
+  // }
+  {
+    id: '1',
+    title: 'Cozy Cardigan',
+    pattern: 'Stripe Overload Cardigan',
+    yarn: 'Knitting for olive mohair silk yarn (Cherry blossom)',
+    status: 'in progress',
+    startDate: '2025-12-23',
+    notes: 'Just started this project and waiting for the yarn to arrive. \n Picture is from rednote user 9511373035!',
+    image: 'https://i.imgur.com/RLKQmb2.jpeg',
+    patternUrl: 'https://www.ravelry.com/patterns/library/stripe-overload-cardi',
+    yarnUrl: 'https://www.woolandcompany.com/products/knitting-for-olive-soft-silk-mohair-cherry-blossom',
+  }
 ];

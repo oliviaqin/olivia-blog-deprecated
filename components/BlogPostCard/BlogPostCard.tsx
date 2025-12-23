@@ -50,11 +50,6 @@ export default function BlogPostCard({ article }: BlogPostCardProps) {
           {article.title}
         </h2>
 
-        {/* Excerpt */}
-        <p className="text-gray-600 line-clamp-3">
-          {article.excerpt}
-        </p>
-
         {/* Tags */}
         {article.tags && article.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 pt-2">

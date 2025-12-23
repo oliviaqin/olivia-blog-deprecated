@@ -10,6 +10,7 @@ export default function Nav() {
     { id: 1, title: 'about', url: '/about' },
     { id: 3, title: 'writing', url: '/writing' },
     { id: 2, title: 'mems', url: '/aesthetic' },
+    { id: 4, title: 'yarn', url: '/yarn' },
   ];
 
   const toggleDropdown = () => {

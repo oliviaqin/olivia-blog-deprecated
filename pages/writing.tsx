@@ -20,15 +20,12 @@ export default function Writing({ allPosts, substackCount, lastFetch }: WritingP
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="min-h-screen py-16">
+      <main className="min-h-screen">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <header className="text-center mb-16">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 playfair-display">
-              Writing
-            </h1>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Stories, thoughts, and reflections
+              scribblings in my free time
             </p>
           
           </header>
